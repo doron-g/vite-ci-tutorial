@@ -5,7 +5,7 @@ jobs:
   its-not-my-name:
     strategy:
       matrix:
-        node-version:[14,16,18]
+        node-version: [ 14,16,18 ]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
